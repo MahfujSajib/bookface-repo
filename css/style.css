@@ -75,18 +75,12 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-
+    padding-top: 15px;
+  
+/*----------- Left Start--------- */
 }
 .left-side{
     flex-basis: 25%;
-    position: sticky;
-}
-.right-side{
-    flex-basis: 25%;
-}
-.middle-side{
-    background-color: #efefef;
-    flex-basis: 47%;
 }
 .explore-now{
     margin-bottom: 30px;
@@ -131,6 +125,141 @@ nav{
     margin-left: 10px;
     margin-bottom: 20px;
     font-size: 15px;
+}
+/* Middle part start */
+.middle-side{
+    background-color: #efefef;
+    flex-basis: 47%;
+}
+.stories{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 47%;
+    
+}
+.story{
+    flex-basis: 18%;
+    position: relative;
+    background-image: url(images/status-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: block;
+    
+}
+.story img{
+    height: 200px;
+    width: 120px;
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.story2 img{
+    height: 200px;
+    width: 120px;
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    margin: 0px 5px;
+   
+}
+.story3 img{
+    height: 200px;
+    width: 120px;
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.story4 img{
+    height: 200px;
+    width: 120px;
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.story5 img{
+    height: 200px;
+    width: 120px;
+    box-shadow: 2px 2px white;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.post{
+    background-color: #FFFFFF;
+    height: 270px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.my-name{
+    margin-left: 10px;
+}
+.profile img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.online span{
+    margin-left: 10px;
+}
+.post-here{
+    margin-left: 65px;
+    margin-top: 50px;
+}
+hr{
+    margin: 30px 40px;
+}
+.activity{
+    display: flex;
+    align-items: center;
+}
+.live-video{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.live-video img{
+    width: 20%;
+}
+.live-video h5{
+    margin-left: 10px;
+}
+.main-status{
+    background-color: #FFFFFF;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.chowemein img{
+    margin: 0px 50px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon p{
+    margin-left: 5px;
+}
+/* ----------Middle Part End----------- */
+/*----------------- Right Side Start-------------- */
+.right-side{
+    flex-basis: 25%;
 }
 .event{
     display: flex;
